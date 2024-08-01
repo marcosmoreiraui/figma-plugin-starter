@@ -1,9 +1,8 @@
-// https://www.figma.com/plugin-docs/manifest/
 export default {
-  name: "Figma-plugin-sample",
+  name: "Figma-plugin-starter",
   id: "",
   api: "1.0.0",
-  main: "plugin.js",
+  main: "code.js",
   ui: "index.html",
   capabilities: [],
   enableProposedApi: false,

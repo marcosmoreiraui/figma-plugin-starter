@@ -20,9 +20,9 @@ export default defineConfig(({ mode }) => ({
     emptyOutDir: false,
     outDir: path.resolve("dist"),
     rollupOptions: {
-      input: path.resolve('src/plugin/plugin.ts'),
+      input: path.resolve('src/plugin/code.ts'),
       output: {
-        entryFileNames: 'plugin.js',
+        entryFileNames: 'code.js',
       },
     },
   }
